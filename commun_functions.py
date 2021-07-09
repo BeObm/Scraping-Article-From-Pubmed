@@ -439,7 +439,7 @@ def get_them(txt_file):
 def set_record():
     """ Cette fonction permet de reinitialiser le dictionnaire devant contenir
      les records"""   
-    record = defauldist(list)
+    record = defaultdict(list)
     return record
 
 
