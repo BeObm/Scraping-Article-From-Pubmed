@@ -438,15 +438,8 @@ def get_them(txt_file):
 
 def set_record():
     """ Cette fonction permet de reinitialiser le dictionnaire devant contenir
-     les records"""
-    record = {}
-    record['PublicationTypeList']=[]
-    record['jtitle'],record['ArticleTitle']=[],[]
-    record['Author 1'],record['Author 1 introduction'],record['Author 1 mailbox']=[],[],[]
-    record['Author 2'],record['Author 2 introduction'],record['Author 2 mailbox']=[],[],[]
-    record['Author n'],record['Author n introduction'],record['Author n mailbox']=[],[],[]
-    record['URL'],record['DOI'],record['PubDate'],record['Pagination'],record['issn'],record['volume'],record['issue']=[],[],[],[],[],[],[]
-    record['Abstract']=[]
+     les records"""   
+    record = defauldist(list)
     return record
 
 
