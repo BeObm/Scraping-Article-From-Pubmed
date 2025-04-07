@@ -1,2 +1,2 @@
 # Scraping Article Metadata From PubMed
-Projet for scraping paper article metadata  from PubMed database
+Project for scraping  article metadata  from PubMed database
